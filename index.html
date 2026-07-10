@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABsoluTéc | Automação e Compliance Ambiental Inteligente</title>
+    <!-- Tailwind CSS para um design Lifestyle Clean e Responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        azulExecutivo: '#1A2332',
+                        verdeAtivo: '#30B27F',
+                        cinzaSuave: '#F8FAFC'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-azulExecutivo text-white font-sans antialiased selection:bg-verdeAtivo selection:text-azulExecutivo">
+
+    <!-- CABEÇALHO -->
+    <header class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center border-b border-gray-800">
+        <div class="flex items-center gap-3">
+            <!-- Ícone da Folha Isométrica Minimalista -->
+            <div class="flex gap-1 items-center">
+                <div class="w-1.5 h-6 bg-white/20 rounded-full"></div>
+                <div class="w-1.5 h-8 bg-verdeAtivo rounded-full"></div>
+                <div class="w-1.5 h-6 bg-white/20 rounded-full"></div>
+            </div>
+            <span class="text-xl font-bold tracking-tight">ABsolu<span class="text-verdeAtivo">Téc</span></span>
+        </div>
+        <nav class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+            <a href="#problema" class="hover:text-white transition">O Problema</a>
+            <a href="#solucao" class="hover:text-white transition">A Solução</a>
+            <a href="#modelo" class="hover:text-white transition">Modelo de Negócios</a>
+        </nav>
+        <a href="#contato" class="border border-verdeAtivo text-verdeAtivo hover:bg-verdeAtivo hover:text-azulExecutivo transition text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-lg">
+            Pitch Deck
+        </a>
+    </header>
+
+    <!-- HERO SECTION (ABERTURA PARA INVESTIDORES) -->
+    <section class="relative max-w-7xl mx-auto px-6 pt-20 pb-32 flex flex-col items-start z-10 overflow-hidden">
+        
+        <!-- Grafismo de Apoio de Fundo (A Folha Isométrica Gigante com Opacidade) -->
+        <div class="absolute right-10 top-10 pointer-events-none opacity-5 hidden lg:flex gap-12">
+            <div class="w-12 h-[500px] bg-white rounded-full"></div>
+            <div class="w-12 h-[600px] bg-verdeAtivo rounded-full -mt-12"></div>
+            <div class="w-12 h-[500px] bg-white rounded-full"></div>
+        </div>
+
+        <div class="max-w-3xl">
+            <span class="text-verdeAtivo text-xs font-bold uppercase tracking-widest bg-verdeAtivo/10 px-3 py-1 rounded-full">GreenTech & SaaS</span>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight mt-4 mb-6 leading-tight">
+                Acelerando o compliance ambiental corporativo através de <span class="text-verdeAtivo">automação inteligente</span>.
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl font-light mb-10 leading-relaxed">
+                Transformamos processos regulatórios complexos e burocráticos, como o PGRS, em fluxos de dados automatizados em nuvem. Escalabilidade para consultores, segurança jurídica máxima para grandes indústrias.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contato" class="bg-verdeAtivo text-azulExecutivo hover:bg-white transition font-bold px-8 py-4 rounded-xl text-center shadow-lg shadow-verdeAtivo/10">
+                    Seja um Hub Parceiro
+                </a>
+                <a href="#solucao" class="bg-white/5 hover:bg-white/10 transition border border-white/10 font-medium px-8 py-4 rounded-xl text-center">
+                    Conheça a Tecnologia
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO: O PROBLEMA (A TESE DE MERCADO) -->
+    <section id="problema" class="bg-white text-azulExecutivo py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <span class="text-verdeAtivo text-xs font-bold uppercase tracking-widest">A Dor do Mercado</span>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mt-2 mb-6">O gargalo analógico de um setor bilionário</h2>
+                <p class="text-gray-600 text-lg font-light mb-12">
+                    Empresas de alta complexidade enfrentam multas pesadas e paralisações por falta de conformidade ambiental. Do outro lado, consultores perdem centenas de horas preenchendo relatórios técnicos de forma manual e descentralizada. O mercado exige eficiência operacional e blindagem jurídica imediata.
+                </p>
+            </div>
+            
+            <!-- Cards de Métricas de Mercado -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border border-gray-200 p-8 rounded-2xl bg-cinzaSuave">
+                    <div class="text-4xl font-black text-azulExecutivo mb-2">90%</div>
+                    <p class="text-gray-6xl text-sm font-light">De redução no tempo de elaboração de Planos de Gerenciamento de Resíduos Sólidos (PGRS).</p>
+                </div>
+                <div class="border border-gray-200 p-8 rounded-2xl bg-cinzaSuave">
+                    <div class="text-4xl font-black text-verdeAtivo mb-2">Zero</div>
+                    <p class="text-gray-6xl text-sm font-light">Margem de erro regulatório. Dados validados cruzando legislações vigentes em tempo real.</p>
+                </div>
+                <div class="border border-gray-200 p-8 rounded-2xl bg-cinzaSuave">
+                    <div class="text-4xl font-black text-azulExecutivo mb-2">100%</div>
+                    <p class="text-gray-6xl text-sm font-light">Arquitetura SaaS em nuvem projetada para escalabilidade rápida e modelo recorrente multinível.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO: A SOLUÇÃO (TECNOLOGIA ABSOLUTÉC) -->
+    <section id="solucao" class="py-24 bg-azulExecutivo border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-verdeAtivo text-xs font-bold uppercase tracking-widest">A Plataforma</span>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mt-2 text-white">Automação de ponta a ponta</h2>
+                <p class="text-gray-400 font-light mt-4">Nossa arquitetura foi desenhada para descentralizar e acelerar a conformidade ambiental através de dois módulos integrados.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white/5 border border-white/10 p-10 rounded-2xl relative overflow-hidden">
+                    <div class="w-12 h-12 rounded-xl bg-verdeAtivo/10 flex items-center justify-center text-verdeAtivo font-bold mb-6">01</div>
+                    <h3 class="text-2xl font-bold mb-4">Workspace do Consultor</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed">
+                        Ambiente inteligente de alta produtividade para engenheiros e técnicos ambientais. Automação completa na geração de relatórios complexos, redução de prazos de entrega e gestão inteligente de múltiplos portfólios de clientes em uma única tela.
+                    </p>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 p-10 rounded-2xl relative overflow-hidden">
+                    <div class="w-12 h-12 rounded-xl bg-verdeAtivo/10 flex items-center justify-center text-verdeAtivo font-bold mb-6">02</div>
+                    <h3 class="text-2xl font-bold mb-4">Hub da Empresa Cliente</h3>
+                    <p class="text-gray-400 font-light text-sm leading-relaxed">
+                        Painel corporativo em tempo real para indústrias, supermercados e redes varejistas de grande porte. Monitoramento ativo de licenças, prazos de condicionantes, coletas de resíduos e governança de compliance com blindagem jurídica total.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO: MODELO DE NEGÓCIOS -->
+    <section id="modelo" class="bg-cinzaSuave text-azulExecutivo py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl mb-16">
+                <span class="text-verdeAtivo text-xs font-bold uppercase tracking-widest">Market Fit</span>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mt-2">Monetização clara e receita recorrente</h2>
+                <p class="text-gray-600 font-light mt-4">Validamos um ecossistema financeiro escalável baseado em assinaturas recorrentes (SaaS) estruturado em duas vertentes principais.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <h4 class="text-xl font-bold text-azulExecutivo mb-2">B2B: Empresas & Indústrias</h4>
+                    <p class="text-gray-500 font-light text-sm mb-4">Assinaturas corporativas mensais escalonadas de acordo com o volume de unidades operacionais e complexidade regulatória gerenciada pelo sistema.</p>
+                    <span class="text-xs font-bold uppercase tracking-wider text-verdeAtivo bg-verdeAtivo/10 px-3 py-1 rounded-full">Alta Retenção / LTV Elevado</span>
+                </div>
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <h4 class="text-xl font-bold text-azulExecutivo mb-2">B2B2C: Consultores Autônomos</h4>
+                    <p class="text-gray-500 font-light text-sm mb-4">Planos acessíveis no modelo de licenças recorrentes para profissionais técnicos que utilizam o ecossistema como motor principal de suas consultorias.</p>
+                    <span class="text-xs font-bold uppercase tracking-wider text-azulExecutivo bg-azulExecutivo/10 px-3 py-1 rounded-full">Escalabilidade de Base Rápida</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ & CONTATO -->
+    <footer id="contato" class="bg-azulExecutivo text-gray-500 text-sm py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <span class="text-white font-bold text-lg">ABsolu<span class="text-verdeAtivo">Téc</span></span>
+                <span class="text-gray-600">|</span>
+                <span class="text-xs font-light tracking-wide text-gray-400">"Soluções Técnicas, resultados Sustentáveis."</span>
+            </div>
+            <p class="text-xs font-light text-gray-400">&copy; 2026 ABsoluTéc. Projetado para inovação e conformidade em escala nacional.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
